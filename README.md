@@ -13,5 +13,8 @@ etc.
 
 
  # Research/Credits
-Paper on VAD tree: [link](https://www.sciencedirect.com/science/article/pii/S1742287607000503)
+Paper on VAD tree's: [link](https://www.sciencedirect.com/science/article/pii/S1742287607000503)
+
 nasa-injector: [link](https://git.back.engineering/IDontCode/nasa-injector)
+- The injector shows the intial design of the driver to be flawed as, it was initially going to check the VAD for suspicious entries (e.g. entries with no mapping associated with it)
+- But, as shown, it takes advantage of a vulnerable driver and does not create any VAD entries meaning a different solution is required; some of which are already provided for.
