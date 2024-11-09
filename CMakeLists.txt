@@ -55,8 +55,8 @@ link_directories(
 
 # Add source files
 add_executable(${PROJECT_NAME}
-    Driver.cpp
-)
+    
+ "src/VTPTranslator.h" "src/VADEnum.h" "Driver.cpp" "src/DriverDeviceControl.cpp")
 
 # Set driver-specific properties
 set_target_properties(${PROJECT_NAME} PROPERTIES
